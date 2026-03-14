@@ -14,5 +14,6 @@ rm -rf node_modules
 nvm use
 yarn install
 yarn deploy
+git branch -a
 
 yarn build / yarn start

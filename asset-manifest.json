@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/emote-resizer/static/css/main.62f9708f.chunk.css",
+    "main.css": "/emote-resizer/static/css/main.362e9e60.chunk.css",
     "main.js": "/emote-resizer/static/js/main.b00dd181.chunk.js",
     "main.js.map": "/emote-resizer/static/js/main.b00dd181.chunk.js.map",
     "runtime-main.js": "/emote-resizer/static/js/runtime-main.3ae9dd72.js",
@@ -10,7 +10,7 @@
     "static/js/3.a0bcd552.chunk.js": "/emote-resizer/static/js/3.a0bcd552.chunk.js",
     "static/js/3.a0bcd552.chunk.js.map": "/emote-resizer/static/js/3.a0bcd552.chunk.js.map",
     "index.html": "/emote-resizer/index.html",
-    "static/css/main.62f9708f.chunk.css.map": "/emote-resizer/static/css/main.62f9708f.chunk.css.map",
+    "static/css/main.362e9e60.chunk.css.map": "/emote-resizer/static/css/main.362e9e60.chunk.css.map",
     "static/js/2.6fd7f249.chunk.js.LICENSE.txt": "/emote-resizer/static/js/2.6fd7f249.chunk.js.LICENSE.txt",
     "static/media/github.16a9304e.svg": "/emote-resizer/static/media/github.16a9304e.svg",
     "static/media/image.f5cc0096.svg": "/emote-resizer/static/media/image.f5cc0096.svg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.3ae9dd72.js",
     "static/js/2.6fd7f249.chunk.js",
-    "static/css/main.62f9708f.chunk.css",
+    "static/css/main.362e9e60.chunk.css",
     "static/js/main.b00dd181.chunk.js"
   ]
 }

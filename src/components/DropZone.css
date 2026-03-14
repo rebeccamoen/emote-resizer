@@ -1,7 +1,7 @@
 .DropZone {
     background-color: rgba(0, 0, 0, 0.25);
     width: 100%;
-    height: 586px;
+    min-height: 500px;
     border-radius: 0.4rem;
     position: relative;
 }
@@ -17,7 +17,6 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 100%;
     opacity: 0;
     position: absolute;
     padding: 0 3rem;
@@ -41,25 +40,21 @@
     z-index: 100;
 }
 
-.DropZone.Loading > .DropCallToAction, .DropZone.Done > .DropCallToAction {
+.DropZone.Loading > .DropCallToAction,
+.DropZone.Done > .DropCallToAction {
     opacity: 0;
     pointer-events: none;
     z-index: initial;
 }
 
 .ResizedContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: none;
     flex-direction: column;
-    padding: 0 2rem;
+    align-items: center;
+    padding: 2rem;
     width: calc(100% - 4rem);
-    height: 100%;
-    transition: all var(--transition-time);
-    position: absolute;
-    opacity: 0;
-    pointer-events: none;
 }
+
 .ResizedContainer > .Label {
     width: 100%;
     display: flex;
@@ -67,14 +62,14 @@
 }
 
 .DropZone.Done > .ResizedContainer {
-    opacity: 1;
-    pointer-events: initial;
+    display: flex;
 }
 
 .ResizedRow {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
     width: 100%;
     margin: 0.25rem 0 1rem 0;
 }
@@ -104,6 +99,7 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    margin-top: 1rem;
 }
 
 .BottomBar > .ButtonContainer {
@@ -111,6 +107,7 @@
     align-items: center;
     justify-content: flex-end;
 }
+
 .BottomBar > .ButtonContainer > .Button {
     margin-right: 0;
 }

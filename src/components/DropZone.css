@@ -47,6 +47,11 @@
     z-index: initial;
 }
 
+.DropZone.Done > .LoadingContainer {
+    opacity: 0;
+    pointer-events: none;
+}
+
 .ResizedContainer {
     display: none;
     flex-direction: column;

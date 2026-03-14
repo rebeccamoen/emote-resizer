@@ -13,4 +13,6 @@ git restore yarn.lock
 rm -rf node_modules
 nvm use
 yarn install
-yarn start
+yarn deploy
+
+yarn build / yarn start

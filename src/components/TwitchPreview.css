@@ -23,7 +23,7 @@
     color: rgb(14, 14, 16);
 }
 .TwitchPreview.Light > * > * > .Username {
-    color: rgb(0, 128, 99);
+    color: #624623;
 }
 
 .ChatMessage {
@@ -33,7 +33,7 @@
 }
 
 .Username {
-    color: rgb(50, 195, 162);
+    color: #624623;
     transition: color var(--transition-time);
 }
 

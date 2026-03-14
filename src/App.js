@@ -6,13 +6,13 @@ import github from './github.svg';
 
 function App() {
   const handleViewOnGithub = () => {
-    window.location.href = "https://github.com/tma02/twitch-emote-resizer";
+    window.location.href = "https://rebeccamoen.github.io/emote-resizer";
   };
   return (
     <div className="App">
       <div className="TitleRow">
         <img className="Icon" src={icon} />
-        <div className="Title">Twitch Emote Resizer</div>
+        <div className="Title">Emote Resizer</div>
       </div>
       <DropZone />
       <div className="Info">

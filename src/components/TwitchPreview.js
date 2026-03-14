@@ -10,7 +10,7 @@ function TwitchPreview({ emoteDataUrl, badgeDataUrl }) {
     <div className={"TwitchPreview" + (light ? " Light" : "")}>
       <div className={"ChatMessage"}>
         <img className={"BadgePreview"} src={badgeDataUrl} />
-        <span><span className="Username">tee_maw</span>: </span>
+        <span><span className="Username">BunniesMoon</span>: </span>
         <img className={"EmotePreview"} src={emoteDataUrl} />
       </div>
       <div className={"DarkToggle"}>
